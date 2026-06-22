@@ -65,19 +65,15 @@
 body {
     font-size: 16px;
   }
-
   .mreza-vestine {
     grid-template-columns: repeat(3, 1fr);
   }
-
   .mreza-projekti {
     grid-template-columns: repeat(2, 1fr);
   }
-
   .sekcija-pocetna h1 {
     font-size: 2.8rem;
   }
-
   .sekcija {
     padding: 90px 0;
   }
