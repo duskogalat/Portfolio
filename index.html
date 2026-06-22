@@ -1,15 +1,248 @@
 <!DOCTYPE html>
 <html lang="sr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio-Dusko Galat</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" href="assets/images/ikonica.ico"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+    <title>Portfolio-Duško Galat</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="style.css"/>
-    <link rel="stylesheet" href="responsive.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css"/>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg" id="navigacija">
+    <div class="container">
+      <a class="navbar-brand" href="#pocetna">DG</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#meni"
+        aria-controls="meni" aria-expanded="false">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="meni">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#o-meni">O meni</a></li>
+          <li class="nav-item"><a class="nav-link" href="#obrazovanje">Obrazovanje</a></li>
+          <li class="nav-item"><a class="nav-link" href="#vestine">Veštine</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projekti">Projekti</a></li>
+          <li class="nav-item"><a class="nav-link" href="#kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header id="pocetna" class="sekcija-pocetna">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <p class="mala-oznaka">&#36;whoami</p>
+          <h1>Poštovanje, ja sam Duško</h1>
+          <p class="opis-pocetna">
+            Student sam prve godine Informacionih tehnologija na Visokoj školi za informacione i komunikacione tehnologije u Beogradu. Ovde možete pronaći informacije o meni, mom obrazovanju, veštinama i projektima na kojima sam radio. Cilj ovog sajta je da predstavi moje znanje, iskustvo i interesovanja iz oblasti informacionih tehnologija . Kroz različite projekte kontinuirano usavršavam svoje veštine i stičem nova iskustva.
+          </p>
+          <div class="dugmici-pocetna">
+            <a href="#projekti" class="btn btn-primary">Pogledaj projekte</a>
+            <a href="#kontakt" class="btn btn-outline-primary">Kontaktiraj me</a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="terminal">
+            <p><span class="terminal-prompt">&gt;</span> ime: Duško Galat</p>
+            <p><span class="terminal-prompt">&gt;</span> status: Student 1. godine na ICT-u</p>
+            <p><span class="terminal-prompt">&gt;</span> veštine: HTML, CSS, Bootstrap, responsive</p>
+            <p><span class="terminal-prompt">&gt;</span>_</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section id="o-meni" class="sekcija">
+      <div class="container">
+        <div class="flex-o-meni">
+          <div class="kartica-slika">
+            <img src="assets/images/profilna.JPEG" alt="Duško Galat profilna" class="moja-slika"/>
+          </div>
+          <div class="tekst-o-meni">
+            <h2>Ko sam ja</h2>
+            <p>Zovem se Duško, imam 20 godina i trenutno studiram informacione tehnologije u Beogradu. Završio sam Medicinsku školu u Zrenjaninu,smer Farmaceutski tehničar. Krajem četvrtog razreda srednje škole razvio sam interesovanje za informacione tehnologije, što me je navelo da upišem Visoku ICT školu u Beogradu.</p>
+            <ul class="lista-cinjenica">
+              <li><i class="bi bi-geo-alt"></i> Beograd, Srbija</li>
+              <li><i class="bi bi-mortarboard"></i> ICT - 1. godina</li>
+              <li><i class="bi bi-code-slash"></i> Programiranjem se bavim godinu dana</li>
+              <li><i class="bi bi-laptop"></i> Trenutno pohađam kurs Web Dizajn 2</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sekcija sekcija-siva">
+      <div class="container">
+        <div id="obrazovanje" class="blok-obrazovanje">
+          <h2 class="naslov-sekcije">Obrazovanje</h2>
+          <div class="lista-obrazovanje">
+            <div class="stavka-obrazovanje prva">
+              <h3>Visoka škola za informacione tehnologije Beograd<span class="godina-obrazovanje">2025 - danas</span></h3>
+              <h4>Informacione tehnologije 1. godina</h4>
+            </div>
+            <div class="stavka-obrazovanje">
+              <h3>Medicinska škola Zrenjanin <span class="godina-obrazovanje">2021 - 2025</span></h3>
+              <h4>Farmaceutski tehničar</h4>
+            </div>
+            <div class="stavka-obrazovanje">
+              <h3>Osnovna škola "Mlada Pokolenja" Kovačica<span class="godina-obrazovanje">2013 - 2021</span></h3>
+              <h4>Osnovna škola</h4>
+            </div>
+          </div>
+        </div>
+        <div id="vestine" class="blok-vestine">
+          <h2 class="naslov-sekcije">Veštine</h2>
+          <p class="napomena-vestine">Trenutno znanje</p>
+          <div class="mreza-vestine">
+            <div class="kartica-vestina">
+              <i class="bi bi-filetype-html ikonica-vestina"></i>
+              <p class="naziv-vestina">HTML</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 90%">90%</div>
+              </div>
+            </div>
+            <div class="kartica-vestina">
+              <i class="bi bi-filetype-css ikonica-vestina"></i>
+              <p class="naziv-vestina">CSS</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 80%">80%</div>
+              </div>
+            </div>
+            <div class="kartica-vestina">
+              <i class="bi bi-bootstrap ikonica-vestina"></i>
+              <p class="naziv-vestina">Bootstrap</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 60%">60%</div>
+              </div>
+            </div>
+            <div class="kartica-vestina">
+              <i class="bi bi-filetype-js ikonica-vestina"></i>
+              <p class="naziv-vestina">JavaScript</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 35%">35%</div>
+              </div>
+            </div>
+            <div class="kartica-vestina">
+              <i class="bi bi-git ikonica-vestina"></i>
+              <p class="naziv-vestina">Git / GitHub</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 30%">30%</div>
+              </div>
+            </div>
+            <div class="kartica-vestina">
+              <i class="bi bi-phone ikonica-vestina"></i>
+              <p class="naziv-vestina">Responsive dizajn</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 60%">60%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projekti" class="sekcija">
+      <div class="container">
+        <h2 class="naslov-sekcije centrirano">Dva projekta na kojima sam radio.</h2>
+        <div class="mreza-projekti">
+          <div class="card kartica-projekat">
+            <div class="slika-projekat"><i class="bi bi-person-circle"></i></div>
+            <div class="card-body">
+              <h3 class="card-title">Moj portfolio</h3>
+              <p class="card-text">Sajt koji upravo gledate.</p>
+              <div class="oznake-projekat">
+                <span class="oznaka">HTML</span><span class="oznaka">CSS</span><span class="oznaka">Bootstrap</span><span class="oznaka">Responsive</span>
+              </div>
+              <div class="dugmici-projekat">
+                <a href="#pocetna" class="btn btn-sm btn-primary">Vrh strane</a>
+                <a href="#" class="btn btn-sm btn-outline-primary">Kod</a>
+              </div>
+            </div>
+          </div>
+          <div class="card kartica-projekat">
+            <div class="slika-projekat"><i class="bi bi-house-heart"></i></div>
+            <div class="card-body">
+              <h3 class="card-title">Odgajivačnica pasa Galat</h3>
+              <p class="card-text">Statična stranica za Odgajivačnicu pasa.</p>
+              <div class="oznake-projekat">
+                <span class="oznaka">HTML</span><span class="oznaka">CSS</span>
+              </div>
+              <div class="dugmici-projekat">
+                <a href="#pocetna" class="btn btn-sm btn-primary">Idi na stranicu</a>
+                <a href="#" class="btn btn-sm btn-outline-primary">Kod</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="kontakt" class="sekcija sekcija-siva">
+      <div class="container">
+        <h2 class="naslov-sekcije centrirano">Pišite mi</h2>
+        <div class="row g-4 red-kontakt">
+          <div class="col-lg-5">
+            <div class="info-kontakt">
+              <p><i class="bi bi-envelope"></i> duško.galat@primer.rs</p>
+              <p><i class="bi bi-geo-alt"></i> Beograd, Srbija</p>
+              <p><i class="bi bi-mortarboard"></i> ICT, 1. godina</p>
+              <div class="drustvene-mreze">
+                <a href="#"><i class="bi bi-github"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <form class="forma-kontakt" method="post">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="ime" class="form-label">Ime i prezime</label>
+                  <input type="text" class="form-control" id="ime" name="ime" placeholder="Vaše ime i prezime">
+                </div>
+                <div class="col-md-6">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="vaša@adresa.com">
+                </div>
+                <div class="col-12">
+                  <label for="poruka" class="form-label">Poruka</label>
+                  <textarea class="form-control" id="poruka" name="poruka" rows="5" placeholder="Kontaktirajte me..." ></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Pošalji poruku</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="flex-footer">
+        <div>
+          <p class="logo-footer">DG</p>
+          <p class="tekst-footer">Moj Portfolio</p>
+        </div>
+        <ul class="linkovi-footer">
+          <li><a href="#o-meni">O meni</a></li>
+          <li><a href="#obrazovanje">Obrazovanje</a></li>
+          <li><a href="#projekti">Projekti</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+        <div class="drustvene-mreze mreze-footer">
+          <a href="#"><i class="bi bi-github"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+        </div>
+      </div>
+      <p class="copy-footer">© 2026 Duško Galat all rights reserved</p>
+    </div>
+  </footer>
+  <a href="#pocetna" id="dugmeNaVrh"><i class="bi bi-arrow-up"></i></a>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
 </body>
 </html>

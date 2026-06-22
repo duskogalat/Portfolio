@@ -1,16 +1,84 @@
 @media (max-width:576px){
-
+ body {
+    font-size: 14px;
+  }
+  .sekcija-pocetna {
+    padding: 110px 0 50px 0;
+    text-align: center;
+  }
+  .sekcija-pocetna h1 {
+    font-size: 1.8rem;
+  }
+  .dugmici-pocetna {
+    justify-content: center;
+  }
+  .sekcija-pocetna .terminal {
+    display: none;
+  }
+  .sekcija-pocetna {
+    background-size: 160px 160px;
+  }
+  .flex-o-meni {
+    flex-direction: column;
+    text-align: center;
+  }
+  .tekst-o-meni {
+    text-align: left;
+  }
+  .lista-cinjenica {
+    justify-content: center;
+  }
+  .sekcija {
+    padding: 50px 0;
+  }
+  .mreza-vestine {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .flex-footer {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .linkovi-footer {
+    justify-content: center;
+  }
 
 
 }
-
 @media (min-width:577px) and (max-width:992px){
-
-
-
+.mreza-vestine {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .mreza-projekti {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .sekcija-pocetna h1 {
+    font-size: 2.1rem;
+  }
+  .flex-o-meni {
+    gap: 36px;
+  }
 }
+
 
 @media (min-width:993px){
+body {
+    font-size: 16px;
+  }
 
+  .mreza-vestine {
+    grid-template-columns: repeat(3, 1fr);
+  }
 
+  .mreza-projekti {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sekcija-pocetna h1 {
+    font-size: 2.8rem;
+  }
+
+  .sekcija {
+    padding: 90px 0;
+  }
 }
